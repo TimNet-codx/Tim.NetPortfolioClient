@@ -24,7 +24,7 @@
 
       let formData = new FormData(thisForm);
     // fetch('http://localhost:3000/api/contact'
-      fetch('http://tim-netportfolioserver.onrender.com/api/contact', {
+      fetch('https://tim-netportfolioserver.onrender.com/api/contact', {
         method: 'POST',
         body: new URLSearchParams(formData), // sends as x-www-form-urlencoded
         headers: {
